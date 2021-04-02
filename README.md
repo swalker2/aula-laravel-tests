@@ -4,7 +4,7 @@
 
 Para acompanhar a aula é necessário Uma instalação do laravel 8 e um banco de dados de sua preferência
 
-Se já tem uma aplicação rodando, vá direto ao passo 2
+Se já tem uma aplicação rodando com estes requisitos, vá direto [ao passo 2](https://github.com/swalker2/aula-laravel-tests/blob/main/README.md#passo-2-preparando-para-a-aula)
 
 Dica: Cria aliases para rodar os comandos mais rapidamente:
 ```bash
@@ -53,11 +53,11 @@ cd aula-laravel-tests
 
 2. Instale e inicialize o laravel breeze
     ```bash
-    sail composer require laravel/breeze --dev
+    ./vendor/bin/sail composer require laravel/breeze --dev
     # vamos fazer testes referente à funcionalidades já prontas do login
     ./vendor/bin/sail artisan breeze:install
-    sail npm i
-    sail npm run dev
+    ./vendor/bin/sail npm i
+    ./vendor/bin/sail npm run dev
     ```
 3. Rode as migrations
     ```bash
